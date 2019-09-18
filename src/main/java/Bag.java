@@ -13,11 +13,15 @@ public class Bag {  //관림객 가방  //가방상태 : 현금&초대장ㅇㅇ 
 
     public boolean hasInvitation() {  //초대장 보유여부
         return invitation != null;
-    }
+    }  //초대장 보유여부 판단
+
+    public void hasTicket(Ticket ticket) {
+        this.ticket = ticket;
+    }  //티켓 보유여부 판단
 
     public void setTicket(Ticket ticket) {  //티켓 보유여부
         this.ticket = ticket;
-    }
+    }  //초대창 -> 티켓 교환
 
     public void minusAmount(Long amount) {
         this.amount -= amount;

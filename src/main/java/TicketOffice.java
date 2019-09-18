@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TicketOffice {
+public class TicketOffice {  //매표소
     private Long amount;
     private List<Ticket> tickets = new ArrayList<Ticket>();
 
